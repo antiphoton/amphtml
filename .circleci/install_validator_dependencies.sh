@@ -32,7 +32,7 @@ sudo apt update
 sudo apt install bazel
 
 echo $(GREEN "Installing GCC...")
-suto apt install gcc
+sudo apt install gcc
 
 echo $(GREEN "Installing Protobuf...")
 pip3 install --user protobuf
