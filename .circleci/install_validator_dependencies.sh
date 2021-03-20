@@ -33,6 +33,7 @@ sudo apt install bazel
 
 echo $(GREEN "Installing GCC...")
 sudo apt install gcc
+which gcc
 
 echo $(GREEN "Installing Protobuf...")
 pip3 install --user protobuf

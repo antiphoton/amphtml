@@ -40,6 +40,10 @@ async function validatorCpp() {
   execOrDie('bazel test validator_test', {
     cwd: 'validator/cpp/engine',
     stdio: 'inherit',
+    env: {
+      ...process.env,
+      CC: 'gcc',
+    },
   });
 }
 
